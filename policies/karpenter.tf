@@ -1,5 +1,5 @@
 variable "cluster_name" {
-  description = "Name of the cluster"
+  description = "jose-terraform-eks-3sywFnRH"
   type        = string
 }
 
