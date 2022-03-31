@@ -10,7 +10,7 @@ spec:
   interval: 2m
   vars:
   - name: cluster_name
-    value: karpenter
+    value: jose-terraform-eks-3sywFnRH
   varsFrom:
     kind: Secret
     name: aws-credentials
