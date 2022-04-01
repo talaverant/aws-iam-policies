@@ -12,7 +12,7 @@ spec:
   - name: cluster_name
     value: jose-terraform-eks-3sywFnRH
   varsFrom:
-    kind: Secret
+  - kind: Secret
     name: aws-credentials
   sourceRef:
     kind: GitRepository
